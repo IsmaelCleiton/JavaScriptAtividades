@@ -1,2 +1,2 @@
 # JavaScriptAtividades
-##Experimentações com JavaScript
+## Experimentações com JavaScript
