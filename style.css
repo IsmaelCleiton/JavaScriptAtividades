@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+
+*{
+    --pallete_color_1: #585123;
+    --pallete_color_2: #EEC170;
+    --pallete_color_3: #F2A65A;
+    --pallete_color_4: #F58549;
+    --pallete_color_5: #772F1A;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: var(--pallete_color_2);
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+
+header{
+    text-align: center;
+    background: var(--pallete_color_3);
+    padding: 15px;
+    border-bottom: 1px solid var(--pallete_color_5);
+}
+
+header a {
+    color: var(--pallete_color_1);
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0 10px;
+    text-decoration: initial;
+}
+
+header a:hover{
+    color: ivory;
+    transition: 400ms;
+}
+#w1 {
+    text-align: center;
+    padding: 16px;
+    border: 0 auto;
+    color: var(--pallete_color_1);
+}
+#w1 img{
+    border-radius: 0%;
+    width: 80%;
+    height: 80%;
+    border: 1px solid;
+    border-color: var(--pallete_color_5);
+}
